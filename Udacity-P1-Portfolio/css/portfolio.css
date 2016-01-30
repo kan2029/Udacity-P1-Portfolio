@@ -1,0 +1,120 @@
+*{
+	font-family: 'Raleway', sans-serif;
+}
+
+.featured-work-image{
+	width: 100%;
+	max-height: 239px;
+}
+
+.featured-work-heading{
+	color: #bcbbbb;	
+}
+
+.cover-image-container{
+	max-height:385px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+.cover-image{
+	width:100%;
+}
+
+.featured-image-wrapper{
+	overflow: hidden;
+}
+
+.featured-image-label{
+	text-align: center;
+	color: #747704;
+}
+
+.logo-wrapper{
+	overflow: hidden;
+    height: 100px !important;
+}
+
+.brand-logo{
+	width:70%;
+}
+
+.about-me{
+	float:right;
+}
+
+.name{
+	margin-bottom: 0px;
+}
+
+.about{
+	margin-top: 0px;
+}
+
+.margin-bottom-5{
+	margin-bottom: 5px !important;
+}
+
+.featured-work-image {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.featured-work-image:hover{
+	opacity: .5;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+	.featured-image-wrapper{
+		overflow: hidden;
+		height:196px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.featured-image-wrapper{
+		overflow: hidden;
+		height:148px;
+	}
+	h3{
+		font-size: 21px !important;
+		margin-bottom: 5px !important;
+		margin-top: 10px !important;
+	}
+	h1{
+		font-size: 30px !important;
+	}
+	h2{
+		font-size: 26px !important;
+	}
+	p{
+		font-size: 11px;
+	}
+	.about-me{
+		margin-top:9px;
+	}
+}
+
+@media only screen and (max-width: 797px){
+	.navbar-header:after{
+		clear:none !important;
+	}
+	h3{
+		font-size: 21px !important;
+		margin-bottom: 5px !important;
+		margin-top: 10px !important;
+	}
+	h1{
+		font-size: 28px !important;
+	}
+	h2{
+		font-size: 24px !important;
+	}
+	.about-me{
+		margin-top:9px;
+	}
+	.featured-work-image{
+		max-height: 1000px;
+	}
+}
